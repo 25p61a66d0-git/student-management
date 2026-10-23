@@ -1,0 +1,17 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; }
+.navbar { display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 40px; background: #1976d2; color: white; }
+.nav-links { display: flex; gap: 20px; }
+.nav-links a { color: white; text-decoration: none; font-weight: bold; }
+.nav-links a:hover { text-decoration: underline; }
+.page { text-align: center; padding: 60px 20px; }
+.form-container { width: 400px; max-width: 90%; margin: 50px auto; padding: 30px;
+  background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,.15); box-sizing: border-box; }
+.form-container h1 { text-align: center; margin-bottom: 25px; }
+.form-container form { display: flex; flex-direction: column; gap: 15px; }
+.form-container input, .form-container textarea { padding: 12px; font-size: 16px;
+  border: 1px solid #ccc; border-radius: 5px; }
+.form-container textarea { height: 120px; resize: none; }
+.form-container button { padding: 12px; background: #1976d2; color: white; border: none;
+  border-radius: 5px; font-size: 16px; cursor: pointer; }
+.form-container button:hover { background: #125ca1; }
